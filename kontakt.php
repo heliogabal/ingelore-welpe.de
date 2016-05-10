@@ -71,7 +71,8 @@ $_SESSION['captcha_code'] = $code;
 				<div id="col3_content" class="clearfix">
 					<div class="floatbox"><div id="c468">
 	<div class="flexi">
-		<div class="left" style="width:44%"><div id="c443"><h1>Kontakt</h1><p>Prof. Dr. Ingelore Welpe<br />	Barstenkamp 48<br />24 113 Molfsee</p>
+		<div class="left" style="width:44%"><div id="c443"><h1>Kontakt</h1><p>Prof. Dr. Ingelore Welpe<br />	Barstenkamp 48<br />24 113 Molfsee
+</p>
 </div></div>
 		<div class="right" style="width:53%"><div id="c469"><p><b>Email</b>: <a href="mailto:&#109;&#97;&#105;&#108;&#64;&#105;&#110;&#103;&#101;&#108;&#111;&#114;&#101;&#45;&#119;&#101;&#108;&#112;&#101;&#46;&#100;&#101;">&#109;&#97;&#105;&#108;&#64;&#105;&#110;&#103;&#101;&#108;&#111;&#114;&#101;&#45;&#119;&#101;&#108;&#112;&#101;&#46;&#100;&#101;</a> <br /><b>Tel</b>.: 0171 306 88 18<br /><b>Fax</b>: 0431 658 658</p></div></div>
 		<div class="clearfix"></div>
