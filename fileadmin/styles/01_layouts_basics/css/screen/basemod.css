@@ -1,0 +1,110 @@
+@charset "UTF-8";
+@media all
+{
+  /**
+   * (en) Formatting YAML's  basic layout elements
+   * (de) Gestaltung des YAML Basis-Layouts
+   */
+
+  /* (en) Marginal areas & page background */
+  /* (de) Randbereiche & Seitenhintergrund */
+  body {background:#4d87c7 url("../images/bg_blue.gif") repeat-x top left fixed; padding:10px 0;}
+
+  /* (en) Layout: width, background, borders */
+  /* (de) Layout: Breite, Hintergrund, Rahmen */
+  #page_margins {min-width:820px; max-width:80em; margin:0 auto; border:0px #889 solid;}
+  #page{background:#C8DDF3; border:10px #C8DDF3 solid;}
+
+  /* (en) Centering layout in old IE-versions */
+  /* (de) Zentrierung des Layouts in alten IE-versionen */
+  body {text-align:center;}
+  #page_margins {text-align:left;}
+
+  /* (en) Designing main layout elements */
+  /* (de) Gestaltung der Hauptelemente des Layouts */
+  #header {height:120px; color:#fff; background:#232324 url("../../img/header-bg.gif") repeat-x;}
+  #header img.headImg1 {position:absolute; top:10px; left:10px; font-size:208%;}
+  #header h1 span {display:block; height:1px; width:1px; overflow:hidden; line-height:105px;}
+  #header div.tx-macinasearchbox-pi1 {position:absolute; bottom:8px; right:10px; font-size:11px;}
+  #header div.tx-macinasearchbox-pi1 input {margin-left:0;}
+  #header div.tx-macinasearchbox-pi1 form span {display:block; font-weight:bold; color:#aaa;}
+  #header div.tx-macinasearchbox-pi1 form input {width:170px; height:13px;}
+  #header #banner {position:absolute; top:25px; right:10px; z-index:10;}
+  #header #topnav {top:2px; font-size:0.9em; color:#aaa; background:transparent;}
+  #header #topnav span.accessKey {text-decoration:underline;}
+  #header #topnav span.showAccessKey {font-size:80%; font-style:italic;}
+
+  /* (en) adjustment of main navigation */
+  /* (de) Anpassung der Hauptnavigation */
+  #nav_main {border-bottom:0;}
+  #nav ul {margin-left:0;}
+
+  #main {background:#fff;padding:0 0;}
+
+  #footer {
+    color:#666; 
+    background:#f9f9f9;
+    padding:15px;
+    border-top:5px #efefef solid;
+
+  }
+
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting content container
+   * (de) Formatierung der Inhalts-Container
+   *
+   * |-------------------------------|
+   * | #header                       |
+   * |-------------------------------|
+   * | #col1   | #col3     | #col2   |
+   * | 25%     | flexible  | 25%     |
+   * |-------------------------------|
+   * | #footer                       |
+   * |-------------------------------|
+   */
+
+
+  #col1 {width:25%}
+  #col1_content {padding:10px;}
+
+  #col2 {width:25%}
+  #col2_content {padding:10px;}
+
+  #col3 {margin:0 25%}
+  #col3_content {padding:10px;}
+
+  /* ####################################
+  ** ### Teaser #########################
+  ** ####################################
+  */
+  #teaser {margin:0; padding:0; background:#eee; color:#888;}
+  #teaser div {float:left; width:auto; font-size:0.9em;}
+
+  #teaser .rootline {margin:6px 0 4px 10px;}
+  #teaser .rootline a {color:#888; text-decoration:underline;}
+  #teaser .rootline a:hover {background:transparent;}
+
+  #teaser .langMenu {float:right; margin:3px 10px 0 0;}
+  #teaser .langMenu a:hover {background:transparent;}
+  #teaser .langMenu img {margin-top:5px;padding-right:3px;}
+  #teaser .langMenu .tx-srlanguagemenu-pi1 .CUR img {padding-right:1px;}
+  #teaser .langMenu .tx-srlanguagemenu-pi1 .CUR img.tx-srlanguagemenu-pi1-flag {padding-right:3px;}
+  #teaser .langMenu .tx-srlanguagemenu-pi1 form#sr_language_menu_form fieldset legend {display:none;}
+  #teaser .langMenu .tx-srlanguagemenu-pi1 form#sr_language_menu_form fieldset label {display:none;}
+
+  #teaser .selectFontSize {float:right; margin:6px 10px 0 0;}
+  #teaser .selectFontSize a {color:#fff;}
+  #teaser .selectFontSize a:hover {background:transparent;}
+
+  #teaser .aktDatum {float:right; margin:6px 20px 4px 0;}
+}
+
+fieldset {margin:10px 0;padding:10px 0;}
+.tx_powermail_pi1_fieldwrap_html {padding:5px 0;}
+
+fieldset#tx-powermail-pi1_fieldset_1 {width:320px;}
+fieldset#tx-powermail-pi1_fieldset_1 input {float:right;width:200px;margin:5px 0;}
+fieldset#tx-powermail-pi1_fieldset_1 label {float:left;width:80px;margin:5px 0;padding:3px 0;}
+

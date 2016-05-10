@@ -1,0 +1,216 @@
+body {background:#5d5d5d url(../images/body_bg.png) repeat-x;padding:0;font-family:Arial,Helvetica,sans-serif}
+#header {background:url(../images/page_gradi_ent.gif) repeat-x;height:100px;}
+#page_margins {background:none;}
+#page {background:#fff;border:0;margin:2em;}
+#header h1 {font-size:30px;padding:20px 0 0 27px;margin:0;font-weight:normal;}
+#header h2 {padding:5px 0 0 27px;font-weight:normal;letter-spacing:2px;}
+h1,h2,h3,h4,h5 {font-family:Georgia,"Times New Roman", Times, serif;color:#444;font-weight:normal;}
+fieldset legend {font:bold 150% Georgia,"Times New Roman", Times, serif;color:#444;}
+label {width:75px;float:left}
+input.powermail_submit_uid21 {margin:0 0 0 88px}
+th,td {padding:0;}
+ol{margin:0 0 1.625em 0 !important;}
+ol li {font-size:110%;}
+
+#nav {display:none;}
+#nav_main {background:#fff}
+#nav_main li {background:#8BDB6B;border:0;}
+#nav_main a {background:#555 !important;}
+
+#main {padding:25px 0;background: url(../images/b_g_2.jpg) repeat-x bottom left;border-bottom:1px solid #333;}
+body#pageUID-155 #main {border-top:10px solid #B3CBE2;}
+body#pageUID-156 #main {border-top:10px solid #98B5D7;}
+body#pageUID-247 #main {border-top:10px solid #789CC6;}
+body#pageUID-246 #main {border-top:10px solid #5D88BB;}
+body#pageUID-273 #main {border-top:10px solid #4572AE;}
+body#pageUID-245 #main {border-top:10px solid #2E578F;}
+body#pageUID-299 #main {border-top:10px solid #3B68A3;}
+
+
+#col1_content {padding:0;}
+#col2_content img {display: block;position: relative;margin:-6px 6px 6px -6px; padding:1px; border:1px solid #ccc;}
+#col3_content h1 {font-size:150%;}
+#col3_content p {font-size:110%;}
+#col3_content ul li {font-size:110%;margin-left:3px;}
+dl.csc-textpic-image dt {background:transparent url(../images/shadowAlpha.png) no-repeat scroll right bottom !important;background:transparent url(../images/shadowAlpha.gif) no-repeat scroll right bottom;
+float:left;margin: 10px 0 0 10px !important; }
+div.csc-textpic div.csc-textpic-imagewrap dl.csc-textpic-image dt {float:left;}
+#col2_content {padding:57px 20px 25px}
+#col1_content p {padding-left:30px}
+#col3_content  {padding:27px 10px;}
+#submenu {margin:26px 0 16px -20px;border:0;}
+#submenu li a {border:0;height:20px;width:202px;color:#fff;padding:7px 0 9px 50px;letter-spacing:.05em;font:bold 18px Georgia,"Times New Roman", serif;}
+.corner {height:10px;line-height:1px;font-size:1px;}
+li.active a {background:#FF55A9 url(../images/link_fff.png) no-repeat top right !important;}
+
+ul#submenu li a {font-weight:normal;letter-spacing:2px;}
+
+li#Home a,li#Home a:active, li#Home strong {background:#B3CBE2 url(../images/link_fff.png) no-repeat top right;}
+li#Home a:visited {background:#B3CBE2 url(../images/link_fff.png) no-repeat top right;}
+li#Home a:hover {background:#FF55A9 url(../images/link_fff.png) no-repeat top right;}
+li#Home a:active, li#Home a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right;}
+li#Home .corner {background:transparent url(../images/corner_home.png) no-repeat}
+
+li#Welpe a, li#Welpe strong {background: #98B5D7 url(../images/link_fff.png) no-repeat top right;}
+li#Welpe a:visited {background: #98B5D7 url(../images/link_fff.png) no-repeat top right;}
+li#Welpe a:hover {background:#FF55A9 url(../images/link_fff.png) no-repeat top right;}
+li#Welpe a:active, li#Welpe a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right;}
+li#Welpe .corner {background:transparent url(../images/corner_welpe.png) no-repeat}
+
+li#Expertise a, li#Expertise a:active, li#Expertise strong {background:#789CC6 url(../images/link_fff.png) top right no-repeat;}
+li#Expertise a:visited {background:#789CC6 url(../images/link_fff.png) top right no-repeat}
+li#Expertise a:hover {background:#FF55A9 url(../images/link_fff.png) top right no-repeat;}
+li#Expertise a:active, li#Expertise a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right}
+li#Expertise .corner {background:transparent url(../images/corner_expertise.png) no-repeat}
+
+li#Referenzen a, li#Referenzen a:active, li#Referenzen strong {background:#5D88BB url(../images/link_fff.png) top right no-repeat;}
+li#Referenzen a:visited {background:#5D88BB url(../images/link_fff.png) top right no-repeat}
+li#Referenzen a:hover {background:#FF55A9 url(../images/link_fff.png) top right no-repeat;}
+li#Referenzen a:active, li#Referenzen a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right}
+li#Referenzen .corner {background:transparent url(../images/corner_referenzen.png) no-repeat}
+
+li#Vorträge a, li#Vorträge a:active, li#Vorträge strong {background:#4572AE url(../images/link_fff.png) top right no-repeat;}
+li#Vorträge a:visited {background:#4572AE url(../images/link_fff.png) top right no-repeat}
+li#Vorträge a:hover {background:#FF55A9 url(../images/link_fff.png) top right no-repeat;}
+li#Vorträge a:active, li#Vorträge a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right}
+li#Vorträge .corner {background:transparent url(../images/corner_vortrag.png) no-repeat}
+
+li#Downloads a, li#Downloads a:active, li#Downloads strong {background:#446A9D url(../images/link_fff.png) top right no-repeat;}
+li#Downloads a:visited {background:#446A9D url(../images/link_fff.png) top right no-repeat}
+li#Downloads a:hover {background:#FF55A9 url(../images/link_fff.png) top right no-repeat;}
+li#Downloads a:active, li#Downloads a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right}
+li#Downloads .corner {background:transparent url(../images/corner_downloads.png) no-repeat}
+
+li#Kontakt a, li#Kontakt a:active, li#Kontakt strong {background:#2E578F url(../images/link_fff.png) top right no-repeat;}
+li#Kontakt a:visited {background:#2E578F url(../images/link_fff.png) top right no-repeat}
+li#Kontakt a:hover {background:#FF55A9 url(../images/link_fff.png) top right no-repeat;}
+li#Kontakt a:active, li#Kontakt a:focus {background:#FF55A9 url(../images/link_fff.png) no-repeat top right}
+li#Kontakt .corner {height:20px;background:transparent url(../images/corner_abschluss.png) no-repeat}
+
+/*Anything Slider*/
+
+div.anythingSlider {
+    height: 390px;
+    margin: 0 auto;
+    width: 700px;
+}
+div.anythingSlider .thumbNav a.cur, div.anythingSlider .thumbNav a {
+    background: none repeat scroll 0 0 #777777;
+}
+div.anythingSlider .anythingWindow {
+    border-bottom: 3px solid #777777;
+    border-top: 3px solid #777777;
+}
+div.anythingSlider.activeSlider .thumbNav a.cur, div.anythingSlider.activeSlider .thumbNav a {
+    background-color: #7C9127;
+}
+div.anythingSlider.activeSlider .anythingWindow {
+    border-color: #7C9127;
+}
+div.anythingSlider .anythingWindow {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+div.anythingSlider {
+    padding: 0 45px 28px;
+    position: relative;
+}
+ul.anythingBase {
+    background: none repeat scroll 0 0 transparent;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+ul.anythingBase li.panel {
+    background: none repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+div.anythingSlider .arrow {
+    display: block;
+    position: absolute;
+    top: 50%;
+}
+div.anythingSlider .arrow a {
+    background: url("../images/arrows.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 120px;
+    margin-top: -60px;
+    outline: 0 none;
+    text-align: center;
+    text-indent: -9999px;
+    width: 45px;
+}
+div.anythingSlider .forward {
+    right: 0;
+}
+div.anythingSlider .back {
+    left: 0;
+}
+div.anythingSlider .forward a {
+    background-position: 0 -40px;
+}
+div.anythingSlider .back a {
+    background-position: -88px -40px;
+}
+div.anythingSlider .forward a:hover, div.anythingSlider .forward a.hover {
+    background-position: 0 -240px;
+}
+div.anythingSlider .back a:hover, div.anythingSlider .back a.hover {
+    background-position: -88px -240px;
+}
+div.anythingSlider .thumbNav {
+    margin: 0;
+}
+div.anythingSlider .thumbNav li {
+    display: inline;
+}
+div.anythingSlider .thumbNav a {
+    background-image: url("../images/cellshade.png");
+    background-repeat: repeat-x;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: black;
+    display: inline-block;
+    font: 11px/18px Georgia,Serif;
+    height: 18px;
+    margin: 0 5px 0 0;
+    outline: 0 none;
+    padding: 2px 8px;
+    text-align: center;
+    text-decoration: none;
+}
+div.anythingSlider .thumbNav a:hover {
+    background-image: none;
+}
+div.anythingSlider.rtl .thumbNav a {
+    float: right;
+}
+div.anythingSlider.rtl .thumbNav {
+    float: left;
+}
+div.anythingSlider .start-stop {
+    background: url("../images/cellshade.png") repeat-x scroll center top green;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    float: right;
+    padding: 2px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    z-index: 10;
+}
+div.anythingSlider .start-stop.playing {
+    background-color: red;
+}
+div.anythingSlider .start-stop:hover, div.anythingSlider .start-stop.hover {
+    background-image: none;
+    color: #FFFF00;
+}

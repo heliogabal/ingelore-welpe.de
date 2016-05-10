@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* ######################################################################################################
+** # "Yet Another Multicolum Layout" (c) by Dirk Jesse (http://www.yaml.de) #############################
+** # "YAML for TYPO3" (c) by Dieter Bunkerd (http://yaml.t3net.de) ######################################
+** ######################################################################################################
+**
+**  Datei       : nav_vlist.css
+**  Funktion    : Formatierung der Subnavigation.
+**  Checked with http://jigsaw.w3.org/css-validator/ 13.8.07 - DB
+*/
+
+@media all
+{
+  #submenu {
+    width: 100%;
+    overflow: hidden;
+    margin: 1em 0 1em 0;
+    list-style-type: none;
+    border-top: 1px #ddd solid;
+  }
+
+  #submenu ul { list-style-type: none; margin:0; padding: 0; }
+  #submenu li { float:left; width: 100%; margin:0; padding: 0 }
+
+  #submenu a,
+  #submenu strong {
+    display:block;
+    width: 90%;
+    padding: 1px 0px 1px 10%;
+    text-decoration: none;
+    background-color:#fff;
+    color: #444;
+    border-bottom: 1px #eee solid;
+  }
+
+/* Just in case the skiplink anchor gets into THIS menu, because the tab-navigation was turned off */
+/* PLEASE LEAVE THE FOLLING SETTING IN PLACE */  
+  #submenu a#navigation {border-bottom:0; padding:0;}
+
+  /* Menu Title */
+  #submenu li#title {
+    width: 90%;
+    padding: 1px 0px 1px 10%;
+    font-weight: bold;
+    color: #444;
+    background-color: #fff;
+    border-bottom: 4px #888 solid;
+  }
+
+  #submenu li span {
+    display:block;
+    width: 90%;
+    padding: 1px 0px 1px 10%;
+    font-weight: bold;
+    border-bottom: 1px #ddd solid;
+  }
+  
+  #submenu li span.accessKey {
+    display:inline;
+    width:auto;
+    padding:0;
+    border:0 none;
+    font-weight:normal;
+    text-decoration:underline;
+  }
+  #submenu li span.showAccessKey {
+    display:inline;
+    width:auto;
+    padding:0;
+    border:0 none;
+    font-weight:normal;
+    font-style:italic;
+    font-size:75%;
+  }
+
+  /* Level 1 */
+  #submenu li#active,
+  #submenu li strong {
+    width: 90%;
+    padding: 1px 0px 1px 10%;
+    font-weight: bold;
+    color: #fff;
+    background-color:#4e5155;
+    border-bottom: 1px #eee solid;
+  }
+
+  #submenu li a { width: 90%; padding-left: 10%; background-color:#fff; color: #444; }
+  #submenu li a:focus,
+  #submenu li a:hover,
+  #submenu li a:active { background-color:#AA1124; color: #fff; }
+
+  /* Level 2 */
+  #submenu li ul li a,
+  #submenu li ul li#active,
+  #submenu li ul li strong,
+  #submenu li ul li span { width: 85%; padding-left: 15%; }
+
+  #submenu li ul li a { background-color:#f8f8f8; color: #666; }
+  #submenu li ul li a:focus,
+  #submenu li ul li a:hover,
+  #submenu li ul li a:active { background-color:#AA1124; color: #fff; }
+
+  /* Level 3 */
+  #submenu li ul li ul li a,
+  #submenu li ul li ul li#active,
+  #submenu li ul li ul li strong,
+  #submenu li ul li ul li span { width: 80%; padding-left: 20%; }
+
+  #submenu li ul li ul li a { background-color:#fcfcfc; color: #888; }
+  #submenu li ul li ul li a:focus,
+  #submenu li ul li ul li a:hover,
+  #submenu li ul li ul li a:active { background-color:#AA1124; color: #fff; }
+
+  /* Level 4 */
+  #submenu li ul li ul li ul li a,
+  #submenu li ul li ul li ul li#active,
+  #submenu li ul li ul li ul li strong,
+  #submenu li ul li ul li ul li span { width: 75%; padding-left: 25%; }
+
+  #submenu li ul li ul li ul li a { background-color:#ffffff; color: #aaa; }
+  #submenu li ul li ul li ul li a:focus,
+  #submenu li ul li ul li ul li a:hover,
+  #submenu li ul li ul li ul li a:active { background-color:#AA1124; color: #fff; }
+}
+/* ##########################
+** ### Accessible menu ######
+** ##########################
+*/
+@media screen, print {
+#submenu dfn, #submenu .hidden {position:absolute; left:-1000em; width:20em;}
+}
